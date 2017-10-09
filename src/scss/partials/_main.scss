@@ -1,0 +1,39 @@
+.main {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  .main__logo {
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .main__buttons,
+  .form,
+  .counter {
+    grid-column: 1/6;
+  }
+}
+
+.block {
+  text-align: center;
+}
+
+.section {
+  li {
+    list-style: none;
+  }
+  .list {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+}
+
+.main__buttons {
+  text-align: center;
+}
